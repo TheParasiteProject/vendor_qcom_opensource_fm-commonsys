@@ -224,14 +224,6 @@ public class FmReceiver extends FmTransceiver
    public static final int FM_RX_SRCHLIST_MODE_WEAKEST  =9;
 
    /**
-   * Maximum number of stations the SearchStationList can
-   * support
-   *
-   * @see #searchStationList
-   */
-   public static final int FM_RX_SRCHLIST_MAX_STATIONS =12;
-
-   /**
     *  Argument option for setMuteMode to unmute FM
     *
     *  @see #setMuteMode
@@ -1263,11 +1255,6 @@ public class FmReceiver extends FmTransceiver
            && (mode != FM_RX_SRCHLIST_MODE_STRONGEST )
            && (mode != FM_RX_SRCHLIST_MODE_WEAKEST )
          )
-      {
-         bStatus = false;
-      }
-      if ( (maximumStations < 0) ||
-           (maximumStations > FM_RX_SRCHLIST_MAX_STATIONS))
       {
          bStatus = false;
       }
