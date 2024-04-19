@@ -338,8 +338,6 @@ public void onRequestPermissionsResult(int requestCode, String[] permissions,  i
       DisplayMetrics outMetrics = new DisplayMetrics();
       getWindowManager().getDefaultDisplay().getMetrics(outMetrics );
 
-      getWindow().setBackgroundDrawableResource(R.color.background_color);
-
       // Set up your ActionBar
       final ActionBar actionBar = getActionBar();
       actionBar.setDisplayShowHomeEnabled(false);

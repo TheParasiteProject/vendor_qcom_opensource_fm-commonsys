@@ -28,7 +28,6 @@
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fmradio"
-    android:background="@drawable/bg_landscape"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
@@ -56,7 +55,7 @@
             android:layout_toRightOf="@+id/btn_onoff"
             android:textSize="14sp"
             android:textStyle="bold"
-            android:textColor="@android:color/white"
+            android:textColor="?android:textColorPrimary"
             android:clickable="true"
             android:focusable="true"
             android:visibility="invisible"
@@ -70,7 +69,7 @@
             android:layout_toRightOf="@+id/record_msg_tv"
             android:layout_toLeftOf="@+id/btn_silent"
             android:textSize="16sp"
-            android:textColor="@android:color/white"
+            android:textColor="?android:textColorPrimary"
             android:singleLine="true"
             android:textStyle="bold"
             android:text="@string/default_blank"/>

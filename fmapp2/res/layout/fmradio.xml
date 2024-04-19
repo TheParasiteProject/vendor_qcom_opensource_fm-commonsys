@@ -28,7 +28,6 @@
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fmradio"
-    android:background="@color/background_color"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
@@ -51,8 +50,7 @@
         <com.caf.fmradio.HorizontalNumberPicker
             android:id="@+id/fm_picker"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/picker_background_color"/>
+            android:layout_height="match_parent"/>
 
         <ImageView
             android:id="@+id/fm_seeker"

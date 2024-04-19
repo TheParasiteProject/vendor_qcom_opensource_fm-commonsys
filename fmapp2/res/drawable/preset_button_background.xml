@@ -32,12 +32,12 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:state_pressed="true"
-        android:drawable="@color/favorite_button_active" />
+        android:drawable="?android:attr/colorPrimary" />
 
     <item android:state_focused="true"
-        android:drawable="@color/favorite_button_active" />
+        android:drawable="?android:attr/colorPrimary" />
 
     <item android:state_enabled="true"
-        android:drawable="@color/favorite_button_normal" />
+        android:drawable="?android:attr/colorAccent" />
 
 </selector>
